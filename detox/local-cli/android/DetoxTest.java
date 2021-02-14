@@ -1,5 +1,4 @@
-// Replace "com.example" here and below with your app's package name from the top of MainActivity.java
-package com.example;
+package {PACKAGE_NAME_PLACEHOLDER};
 
 import com.wix.detox.Detox;
 import com.wix.detox.config.DetoxConfig;
@@ -15,8 +14,7 @@ import androidx.test.rule.ActivityTestRule;
 @RunWith(AndroidJUnit4.class)
 @LargeTest
 public class DetoxTest {
-    // Replace 'MainActivity' with the value of android:name entry in
-    // <activity> in AndroidManifest.xml
+    // Replace 'MainActivity' with the value of android:name entry in <activity> in AndroidManifest.xml
     @Rule
     public ActivityTestRule<MainActivity> mActivityRule = new ActivityTestRule<>(MainActivity.class, false, false);
 
